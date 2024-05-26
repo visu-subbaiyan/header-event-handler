@@ -1,5 +1,5 @@
 {
-  "name": "header-event-handler",
+  "name": "@owner-placeholder/header-event-handler",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -7,6 +7,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
+  },
+  "main": "dist/header-event-handler.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/header-event-handler.esm.js",
+      "require": "./dist/header-event-handler.cjs"
+    }
   },
   "repository": "https://github.com/visu-subbaiyan/header-event-handler",
   "devDependencies": {
