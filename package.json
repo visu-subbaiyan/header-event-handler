@@ -1,0 +1,19 @@
+{
+  "name": "header-event-handler",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": "https://github.com/visu-subbaiyan/header-event-handler",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "peerDependencies": {
+    "h3": "1.11.1"
+  }
+}
